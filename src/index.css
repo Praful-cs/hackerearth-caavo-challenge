@@ -1,0 +1,33 @@
+main {
+  min-height: 80vh;
+}
+
+h3 { 
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem 0.1rem 0.1rem 0; 
+}
+
+.notSelected{
+  transition: all 200ms ease-out;
+}
+
+.selected {
+  border: 5px solid #55595c;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  /* border-top: 52px solid #CCC;
+  border-left: 52px solid transparent;
+  transition: all 200ms ease-out; */
+}
+
+/* .selected::before {
+  border-top: 52px solid #CCC;
+  border-left: 52px solid transparent;
+} */
+
+.card:focus, .card:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+ }
